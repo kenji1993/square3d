@@ -14,7 +14,52 @@ body {
     align-items: center;
     background: #000000;
 }
-.main {
-    width: 50%;
-    height: 50vh;
+.container {
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    perspective: 15rem;
+}
+.square {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+}
+.side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0.2rem solid #fff;
+}
+.back {
+    background: #94e69b;
+    transform: rotateX(0deg)
+                translateZ(-7.5rem);
+}
+.left {
+    background: #94e6d8;
+    transform: rotateY(90deg)
+                translateZ(-7.5rem);
+}
+.bottom {
+    background: #94dae6;
+    transform: rotateX(90deg)
+                translateZ(-7.5rem);
+}
+.front {
+    background: #8a90e0;
+    transform: rotateX(0deg)
+                translateZ(7.5rem);
+}
+.right {
+    background: #c08ae0;
+    transform: rotateY(90deg)
+                translateZ(7.5rem);
+}
+.top {
+    background: #e08aca;
+    transform: rotateX(90deg)
+                translateZ(7.5rem);
 }
