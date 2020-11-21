@@ -15,10 +15,10 @@ body {
     background: #000000;
 }
 .container {
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
     position: relative;
-    perspective: 15rem;
+    perspective: 10rem;
 }
 .square {
     width: 100%;
@@ -34,32 +34,32 @@ body {
     border: 0.2rem solid #fff;
 }
 .back {
-    background: #94e69b;
+    background: rgba(116, 204, 255, 0.8);
     transform: rotateX(0deg)
-                translateZ(-7.5rem);
+                translateZ(-5rem);
 }
 .left {
-    background: #94e6d8;
+    background: rgb(148, 230, 216, 0.8);
     transform: rotateY(90deg)
-                translateZ(-7.5rem);
+                translateZ(-5rem);
 }
 .bottom {
-    background: #94dae6;
+    background: rgba(148, 218, 230, 0.8);
     transform: rotateX(90deg)
-                translateZ(-7.5rem);
+                translateZ(-5rem);
 }
 .front {
-    background: #8a90e0;
+    background:rgba(138, 144, 224, 0.8);
     transform: rotateX(0deg)
-                translateZ(7.5rem);
+                translateZ(5rem);
 }
 .right {
-    background: #c08ae0;
+    background: rgba(192, 138, 224, 0.8);
     transform: rotateY(90deg)
-                translateZ(7.5rem);
+                translateZ(5rem);
 }
 .top {
-    background: #e08aca;
+    background: rgba(224, 138, 202, 0.8);
     transform: rotateX(90deg)
-                translateZ(7.5rem);
+                translateZ(5rem);
 }
